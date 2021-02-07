@@ -1,0 +1,61 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    
+}
+div {
+    display: block;
+}
+
+.nav-bar {
+    background-color: aqua;
+    height: 56px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.start {
+    margin: 20px 0 0 20px;
+    width: 20%;
+    height: auto;
+}
+.middle-left {
+    width: 45%;
+    height: auto;
+    margin-top: 20px;
+}
+.search-bar {
+    width: 550px;
+}
+.middle-right {
+    margin-top: 20px;
+    width: 10%;
+    height: auto;
+}
+.end {
+    height: auto;
+    width: 20%;
+    margin-top: 20px;
+}
+.main-page {
+    background-color: blue;
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+
+.side-bar {
+    background-color: brown;
+    height: 100%;
+    width: 40%;
+    float: right;
+}
