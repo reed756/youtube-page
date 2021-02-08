@@ -1,61 +1,180 @@
 html, body {
     width: 100%;
     height: 100%;
+    background-color: black;
+}
+
+button {
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
 }
 
 img {
-    
+    margin: 0;
+    padding: 0;
 }
+
 div {
     display: block;
 }
 
+/* NAV BAR CSS */
+
 .nav-bar {
-    background-color: aqua;
+    background-color: black;
     height: 56px;
     width: 100%;
     top: 0;
+    left: 0;
     position: fixed;
-}
-
-.nav-content {
+    align-items: center;
+    padding: 0 16px;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
 
+.nav-content {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
 .start {
-    margin: 20px 0 0 20px;
-    width: 20%;
-    height: auto;
+    width: 185px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+.menu-icon {
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    margin: 0 16px 0 0;
+}
+
+.youtube-logo {
+    height: 24px;
+    width: 129px;
+    align-self: center;
 }
 .middle-left {
-    width: 45%;
-    height: auto;
-    margin-top: 20px;
+    width: 728px;
+    height: 40px;
+    margin: 0 0 0 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 4px;
 }
 .search-bar {
-    width: 550px;
+    width: 575px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    color: whitesmoke;
+    position: relative;
+    border: 1px solid darkgrey;
+    border-right: 0;
 }
-.middle-right {
-    margin-top: 20px;
-    width: 10%;
-    height: auto;
+.search-button {
+    width: 65px;
+    height: 32px;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.363);
+}
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+.voice-icon {
+    width: 24px;
+    height: 24px;
+}
+.voice-image {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+.voice-button {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 .end {
-    height: auto;
-    width: 20%;
-    margin-top: 20px;
+    height: 40px;
+    width: 225px;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 0 0 72px;
 }
+.end-menu {
+    display: flex;
+    flex-direction: row;
+    width: 204px;
+    height: 40px;
+}
+.create-icon {
+    width: 40px;
+    height: 40px;
+}
+.apps-icon {
+    width: 40px;
+    height: 40px;
+}
+.notifications-icon {
+    width: 40px;
+    height: 40px;
+}
+.account-icon {
+    width: 60px;
+    height: 40px;
+}
+
+/* Left side CSS */
+
 .main-page {
-    background-color: blue;
-    height: 100%;
-    width: 60%;
+    background-color: black;
     float: left;
+    left: 0;
+    width: 664px;
+    height: 2329px;
+    margin: 56px 0 0 0;
+    padding: 0;
 }
 
 .side-bar {
-    background-color: brown;
-    height: 100%;
-    width: 40%;
+    background-color: black;
+    height: 2329px;
+    width: 600px;
     float: right;
+    align-items: center;
+    margin: 56px 0 0 0;
+}
+.side-items {
+    width: 600px;
+    height: 160px;
+}
+.spurs, .real-madrid, .atletico {
+    width: 300px;
+    height: 150px;
+}
+.tags {
+    color: blanchedalmond;
 }
