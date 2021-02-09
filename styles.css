@@ -158,6 +158,19 @@ div {
     margin: 56px 0 0 0;
     padding: 0;
 }
+.video-description {
+    color: blanchedalmond;
+}
+.video-views {
+    margin-top: 10px;
+    color: lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.video-border {
+    margin-bottom: 10px;
+}
+
+/* Right Side CSS */
 
 .side-bar {
     background-color: black;
@@ -170,11 +183,26 @@ div {
 .side-items {
     width: 600px;
     height: 160px;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+}
+.side-caption {
+    padding-left: 10px;
+}
+.side-caption-two {
+    padding-left: 25px;
+}
+.side-description {
+    margin-top: 10px;
+}
+.side-description-two {
+    margin-top: 0;
+}
+.side-text {
+    color: lightgrey;
 }
 .spurs, .real-madrid, .atletico {
     width: 300px;
     height: 150px;
-}
-.tags {
-    color: blanchedalmond;
 }
